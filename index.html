@@ -31,23 +31,24 @@
         </nav>
     </header>
 
-    <!-- Hero Section - NOW WITH BMW BACKGROUND -->
-    <section id="home" class="hero">
-        <div class="hero-content">
+    <!-- Hero Section - FIXED BMW BACKGROUND -->
+    <section id="home" class="hero" style="background-image: url('assets/images/M3_Backgroung.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.6), rgba(40,40,40,0.8)); z-index: 1;"></div>
+        <div class="hero-content" style="position: relative; z-index: 2;">
             <h1 class="hero-title">A Nico Racing Project</h1>
             <p class="hero-tagline">Engineering Performance. Built to Win.</p>
             <a href="#projects" class="cta-button">Explore Projects</a>
         </div>
     </section>
 
-    <!-- Featured Projects - NOW WITH REAL IMAGES -->
+    <!-- Featured Projects - FIXED IMAGE PATHS -->
     <section id="projects" class="featured-projects">
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="assets/images/projects/bmw-m3-gtr.jpg" alt="BMW E46 M3 GTR">
+                        <img src="assets/images/M3_GTR.jpg" alt="BMW E46 M3 GTR" style="width: 100%; height: 100%; object-fit: cover;">
                         <div class="project-overlay">
                             <h3>BMW E46 M3 GTR</h3>
                             <p class="project-specs">S64 V8 4.9L | 480HP</p>
@@ -58,7 +59,7 @@
                 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="assets/images/projects/porsche-911-turbo.jpg" alt="Porsche 911 Turbo 997">
+                        <img src="assets/images/porsche-911-turbo.jpg" alt="Porsche 911 Turbo 997" style="width: 100%; height: 100%; object-fit: cover;">
                         <div class="project-overlay">
                             <h3>Porsche 911 Turbo (997)</h3>
                             <p class="project-specs">Flat Six 3.8L | 650HP</p>
@@ -69,7 +70,7 @@
                 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="assets/images/projects/kartcross-ducati.jpg" alt="Kartcross Ducati">
+                        <img src="assets/images/kartcross-placeholder.jpg" alt="Kartcross Ducati" style="width: 100%; height: 100%; object-fit: cover; background: linear-gradient(45deg, #DC2626, #EF4444);">
                         <div class="project-overlay">
                             <h3>Kartcross</h3>
                             <p class="project-specs">Ducati 700CC | 70HP</p>
@@ -80,7 +81,7 @@
                 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="assets/images/projects/nissan-terrano.jpg" alt="Nissan Terrano">
+                        <img src="assets/images/Terrano.jpg" alt="Nissan Terrano" style="width: 100%; height: 100%; object-fit: cover;">
                         <div class="project-overlay">
                             <h3>Nissan Terrano</h3>
                             <p class="project-specs">VG30E 3.0L | 150HP</p>
